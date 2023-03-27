@@ -1,1 +1,1 @@
-Printf Project by Yamkela Fukuse and Airat Omolola
+Team Project on Printf by Yamkela Fukuse and Airat Omolola
