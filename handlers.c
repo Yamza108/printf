@@ -2,13 +2,13 @@
 
 /************************* WRITE HANDLE *************************/
 /**
- * handle_write_char - Prints a string
- * @c: char types.
+ * handle_write_char - Prints a string and takes two parameters
+ * @c: char datatypes.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
- * @width: get width.
- * @precision: precision specifier
- * @size: Size specifier
+ * @width: get width or length.
+ * @precision: specifies precision
+ * @size: specifies size
  *
  * Return: Number of chars printed.
  */
@@ -79,7 +79,7 @@ int write_number(int is_negative, int ind, char buffer[],
 }
 
 /**
- * write_num - Write a number using a bufffer
+ * write_num - Write a number using the bufffer
  * @ind: Index at which the number starts on the buffer
  * @buffer: Buffer
  * @flags: Flags
